@@ -54,10 +54,11 @@ fairy.velocityY=0;
   }
 
   if(keyDown(DOWN_ARROW)){
-	  star.velocityY=starBody.velocityY=4;
+	  star.velocityY=4;
+          starBody.velocityY=4;
   }
-  if(starBody.position.y > 470){
-	star.velocityY=0;
+  if(starBody.position.y > 200){
+	//star.velocityY=0;
         starBody.velocityY=0;
   }
 
