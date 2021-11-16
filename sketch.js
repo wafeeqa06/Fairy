@@ -57,7 +57,8 @@ fairy.velocityY=0;
 	  star.velocityY=starBody.velocityY=4;
   }
   if(starBody.position.y > 470){
-	star.velocityY=starBody.velocityY=0;
+	star.velocityY=0;
+        starBody.velocityY=0;
   }
 
   drawSprites();
